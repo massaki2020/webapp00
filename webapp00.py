@@ -15,7 +15,7 @@ st.write("Nós somos uma plataforma que disponibiliza funções para os gestores
 x = st.slider('Escolha o seu nível de ansiedade devido ao trabalho:')
 if x < 50 :
   st.write ("Você não está ansioso")
-elif x > 80 :
+elif x >= 80 :
   st.write ("Você está muito ansioso. Consulte um psicólogo!")
 else :
   st.write ("Você está ficando ansioso.")
