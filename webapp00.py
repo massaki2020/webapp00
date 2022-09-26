@@ -21,4 +21,4 @@ elif x >= 80 :
 else :
   st.write ("Você está ficando ansioso.")
   
-st.selectbox('Selecione a Forma de Pagamento'['Plano Básico';'Plano Premium'])
+st.selectbox('Selecione a Forma de Pagamento'['Plano Básico','Plano Premium'])
