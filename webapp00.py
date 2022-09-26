@@ -2,7 +2,8 @@
   
 #import the library
 import streamlit as st
-  
+
+
 # Use st.title("") para adicionar um TÍTULO ao seu Web app
 st.title("FunControll")
 # Use st.header("") para adicionar um CABEÇALHO ao seu Web app
@@ -19,3 +20,5 @@ elif x >= 80 :
   st.write ("Você está muito ansioso. Consulte um psicólogo!")
 else :
   st.write ("Você está ficando ansioso.")
+  
+st.selectbox('Selecione a Forma de Pagamento'['Plano Básico';'Plano Premium'])
