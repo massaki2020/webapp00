@@ -9,3 +9,4 @@ streamlit-aggrid
 openpyxl
 pyxlsb
 matplotlib
+wordcloud
